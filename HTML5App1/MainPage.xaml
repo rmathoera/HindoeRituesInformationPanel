@@ -20,29 +20,6 @@
                           VerticalAlignment="Stretch"
                           Loaded="Browser_Loaded"
                           NavigationFailed="Browser_NavigationFailed" />
-        <TextBox x:Name="textBox" HorizontalAlignment="Center" Height="75" Margin="9,197,35,0" TextWrapping="Wrap" Text="Hindoe Ritus Information Panel" VerticalAlignment="Top" Width="436" IsReadOnly="True" FontWeight="Normal" FontFamily="Georgia Pro Cond Light" FontSize="24" TextAlignment="Center" RenderTransformOrigin="0.5,0.5" ToolTipService.ToolTip="Haha tooltip">
-            <TextBox.Foreground>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black" Offset="0"/>
-                    <GradientStop Color="#FFA3AE74" Offset="1"/>
-                </LinearGradientBrush>
-            </TextBox.Foreground>
-            <TextBox.SelectionForeground>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black" Offset="0"/>
-                    <GradientStop Color="#FFC91C1C" Offset="1"/>
-                </LinearGradientBrush>
-            </TextBox.SelectionForeground>
-            <TextBox.SelectionBackground>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black" Offset="0"/>
-                    <GradientStop Color="#FFE6AA0B" Offset="1"/>
-                </LinearGradientBrush>
-            </TextBox.SelectionBackground>
-            <TextBox.RenderTransform>
-                <CompositeTransform/>
-            </TextBox.RenderTransform>
-        </TextBox>
     </Grid>
 
     <!-- ApplicationBar -->
